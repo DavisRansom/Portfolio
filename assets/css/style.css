@@ -10,6 +10,10 @@
   font-size: 30px;
 }
 
+body {
+    background-color: aquamarine;
+}
+
 
 A Flexible Layout must have a parent element with the display property set to flex
 
