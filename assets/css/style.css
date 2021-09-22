@@ -8,38 +8,57 @@ body {
 }
 
 header {
-  padding: 15px;
+  border:dashed black;
+  padding: 5px;
   text-align: center;
   background: #13293d;
   color: #fff;
 }
 
 header nav {
+  border: dashed black;
   padding: 60px;
   text-align:center;
   background-color: oldlace;
 }
 
 header nav ul {
+  border: dashed black;
   padding: 15px;
   text-align: center;
 }
 
 ul li {
+  border: dashed black;
   padding: 15px;
   text-align: center;
-  justify-content: space-evenly;
 }
 
-#about-me p {
-  
+.about-me-section {
+  border: dashed black;
+  padding: 60px;
+  text-align:center;
+  background-color: oldlace;
 }
 
-#about-me h2 {
-  
+.work-section {
+  border: dashed black;
+  padding: 60px;
+  text-align:center;
+  background-color: lightskyblue;
 }
 
-  footer p {
+.contact-me-section {
+  border: dashed black;
+  padding: 60px;
+  text-align:center;
+  background-color: oldlace;
+}
+
+footer p {
+  border: dashed black;
     padding: 2px;
+    margin: 2px;
     text-align: center;
+    background-color: oldlace;
   }
