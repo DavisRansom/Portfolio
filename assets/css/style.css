@@ -21,16 +21,10 @@ header nav {
   flex-wrap:wrap;
   justify-content: space-evenly;
   border: black;
-  padding: 60px;
+  padding: 30px;
   text-align:center;
   background-color: oldlace;
   font-size: 28px;
-}
-
-header nav ul {
-  border: dashed black;
-  padding: 15px;
-  text-align: center;
 }
 
 .section {
@@ -39,9 +33,10 @@ header nav ul {
   flex-wrap:wrap;
   justify-content: space-between;
   border: solid black;
-  padding: 60px;
+  padding: 50px;
   text-align:center;
   background-color: oldlace;
+
 }
 
 .section h2 {
@@ -56,19 +51,13 @@ header nav ul {
   flex: 0 0 70%;
 }
 
-#work-section {
-  border: solid black;
-  text-align:center;
-  background-color: #13293d;
-}
-
 .work-images {
   display: flex;
   flex-direction: row;
   flex-wrap:wrap;
   justify-content: space-between;
   border: solid black;
-  padding: 60px;
+  padding: 5px;
   text-align:center;
   background-color: oldlace;
 }
@@ -76,13 +65,6 @@ header nav ul {
 .work-images img {
   flex: 0 0 100%;
   padding: 5px;
-}
-
-.section {
-  border: solid black;
-  padding: 60px;
-  text-align:center;
-  background-color: oldlace;
 }
 
 .section p {
@@ -106,12 +88,17 @@ footer p {
   }
 
   @media screen and (max-width: 992px) {
-    .about-me-section h2, 
-    .about-me-section div
-    .work-section
+    .section
      {
    flex: 0 0 100%;
     }
     }
-    
 
+    @media screen and (max-width: 768px) {
+      header,
+      main,
+      footer
+       {
+        flex: 0 0 100%;
+        flex-direction: column;
+      }
