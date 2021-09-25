@@ -47,8 +47,27 @@ header nav {
   padding-right:10px;
 }
 
+.section p {
+  font-size: 24px;
+}
+
+.section a {
+  font-size: 24px;
+}
+
 .section div {
   flex: 0 0 70%;
+}
+
+#work-section {
+  border:black;
+  padding: 5px;
+  text-align: center;
+  background: #13293d;
+}
+
+#work-section h2 {
+  color: white;
 }
 
 .work-images {
@@ -67,18 +86,6 @@ header nav {
   padding: 5px;
 }
 
-.section p {
-  font-size: 24px;
-}
-
-.section a {
-  font-size: 24px;
-}
-
-#work-section h2 {
-  color: white;
-}
-
 footer p {
   border: solid black;
     padding: 2px;
@@ -94,7 +101,7 @@ footer p {
     }
     }
 
-    @media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
       header,
       main,
       footer
