@@ -20,7 +20,7 @@ header nav {
   flex-direction: row;
   flex-wrap:wrap;
   justify-content: space-evenly;
-  border: dashed black;
+  border: black;
   padding: 60px;
   text-align:center;
   background-color: oldlace;
@@ -28,16 +28,6 @@ header nav {
 }
 
 header nav ul {
-  border: dashed black;
-  padding: 15px;
-  text-align: center;
-}
-
-nav {
-
-}
-
-ul li {
   border: dashed black;
   padding: 15px;
   text-align: center;
@@ -69,7 +59,7 @@ ul li {
 #work-section {
   border: solid black;
   text-align:center;
-  background-color: lightskyblue;
+  background-color: #13293d;
 }
 
 .work-images {
@@ -93,6 +83,18 @@ ul li {
   padding: 60px;
   text-align:center;
   background-color: oldlace;
+}
+
+.section p {
+  font-size: 24px;
+}
+
+.section a {
+  font-size: 24px;
+}
+
+#work-section h2 {
+  color: white;
 }
 
 footer p {
