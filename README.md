@@ -6,7 +6,7 @@ This portfolio is meant to be a work in progress, and as I learn, I will add mor
 
 This portfolio project was special for me, in terms of learning, because it was really the very first time that I have ever built a website, and every little detail was a serious challenge, but also a great, hands-on learning experience.
 
-file:///Users/davisransom/Desktop/PortfolioScreenShot.png
+
 
 
 Copyright (2021) [Davis Ransom]

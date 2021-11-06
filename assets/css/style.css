@@ -1,14 +1,13 @@
 * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin: 2px;
+  font-family: 'Times New Roman';
 }
 
 header {
-  border:dashed black;
+  border: 2px, black;
   padding: 5px;
   text-align: center;
   background: #13293d;
@@ -29,34 +28,33 @@ header nav {
 
 .section {
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap:wrap;
   justify-content: space-between;
   border: solid black;
   padding: 50px;
   text-align:center;
   background-color: oldlace;
-
 }
 
 .section h2 {
-  flex: 0 0 20%;
-  border-right: 2px solid black; 
+  flex: 0 0 100%;
+  flex-wrap:wrap; 
   font-size: 30px;
-  text-align: right;
-  padding-right:10px;
+  text-align: center;
+  padding: 8px;
 }
 
 .section p {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .section a {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .section div {
-  flex: 0 0 70%;
+  flex: 0 0 100%;
 }
 
 #work-section {
@@ -67,7 +65,7 @@ header nav {
 }
 
 #work-section h2 {
-  color: white;
+  color: #13293d;
 }
 
 .work-images {
@@ -75,31 +73,20 @@ header nav {
   flex-direction: row;
   flex-wrap:wrap;
   justify-content: space-between;
-  border: solid black;
+  border: black;
   padding: 5px;
   text-align:center;
   background-color: oldlace;
 }
-
 .work-images img {
   flex: 0 0 100%;
-  padding: 5px;
 }
 
 footer p {
   border: solid black;
-    padding: 2px;
-    margin: 2px;
     text-align: center;
     background-color: oldlace;
   }
-
-  @media screen and (max-width: 992px) {
-    .section
-     {
-   flex: 0 0 100%;
-    }
-    }
 
   @media screen and (max-width: 768px) {
       header,
@@ -108,4 +95,4 @@ footer p {
        {
         flex: 0 0 100%;
         flex-direction: column;
-      }
+  }}
