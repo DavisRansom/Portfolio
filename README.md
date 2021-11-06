@@ -1,6 +1,6 @@
 < Davis Ransom and UCSD Bootcamp Professional Portfolio >
 
-This Professional Portfolio was created first to practice HTML, css, and file-structure. In addition, I will be able to store and share my projects here, for other developer to check out, or to share with potential employers.
+This Professional Portfolio was created first to practice HTML, css, and file-structure. In addition, I store and share my projects here, for other developer to check out, or to share with potential employers.
 
 This portfolio is meant to be a work in progress, and as I learn, I will add more and more features, such as emailing me via forms, adding video, and enhancing the look of the webpage.
 
