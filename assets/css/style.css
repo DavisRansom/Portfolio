@@ -83,10 +83,16 @@ header nav {
   flex: 0 0 100%;
 }
 
+footer {
+  display:flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  text-align: center;
+}
+
 footer p {
   border: solid black;
     text-align: center;
-    background-color: oldlace;
   }
 
   @media screen and (max-width: 768px) {
