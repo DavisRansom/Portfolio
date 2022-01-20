@@ -1,13 +1,11 @@
-< Davis Ransom and UCSD Bootcamp Professional Portfolio >
-
-This Professional Portfolio was created first to practice HTML, css, and file-structure. In addition, I store and share my projects here, for other developer to check out, or to share with potential employers.
+Davis Ransom Web Developer Portfolio 
 
 This portfolio is meant to be a work in progress, and as I learn, I will add more and more features, such as emailing me via forms, adding video, and enhancing the look of the webpage.
 
 This portfolio project was special for me, in terms of learning, because it was really the very first time that I have ever built a website, and every little detail was a serious challenge, but also a great, hands-on learning experience.
 
 
-Copyright (2021) [Davis Ransom]
+Copyright 2021 Davis Ransom
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
