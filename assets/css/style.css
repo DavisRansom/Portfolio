@@ -6,6 +6,10 @@ section {
     background-color: #222;
 }
 
+header {
+    margin: 35px;
+}
+
 body {
     background-color: black;
     color: white;
@@ -22,7 +26,17 @@ img[alt="Logo"]{
     filter: invert(100%);
 }
 
-nav a {
+div a {
    display: inline-block; 
    margin: 0 10px;
 }
+
+#hamburger { opacity: 0; position: absolute; };
+
+#hamburger + label { cursor: pointer; font-size: 2em; color: white};
+
+#hamburger + label nav { position: absolute; left: -250px; transition: left 0.5s; };
+
+#hamburger + label nav a { display: block; color: white};
+
+#hamburger:focus + label nav { left: 10px; transition: left 0.5s; }
