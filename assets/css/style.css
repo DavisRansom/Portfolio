@@ -18,7 +18,7 @@ header {
     margin: 35px;
 }
 
-#tooltip { position: absolute; background-color: rgba(210, 180, 240, 0.9); font-size: 14px; font-family: sans-serif; font-weight: bold; padding: 5px 10px; border: 2px solid maroon; border-radius: 5px; transform: translate(-50%, -125%); pointer-events: none; }
+#tooltip { position: absolute; background-color: rgba(15, 14, 15, 0.9); font-size: 14px; font-family: sans-serif; font-weight: bold; padding: 5px 10px; border: 2px solid rgb(12, 12, 12); border-radius: 5px; transform: translate(-50%, -125%); pointer-events: none; }
 
 body {
     background-color: black;

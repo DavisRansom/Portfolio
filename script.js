@@ -20,10 +20,10 @@ fetch("https://upload.wikimedia.org/wikipedia/commons/1/1a/Blank_US_Map_%28state
 var tooltip;
 
 const toolTips = {
-    ca:"Mt wife, Emily, and I live in San Diego now. We are expecting our first child, a girl, in mid-July!",
-    la:"This is where my mom's side of the family is from. Oak Grove, Louisiana. They were all Army families so they moved around a lot, but The South is where they made their home.",
-    ma:"My extended family has made their way to Massachusetts and New Hampshire. I love the Boston area!",
-    va:"I was born in Virginia, right outside of Washington D.C. My dad was an FBI Agent and my mom was a teacher. I get my analytical side from my dad and my more intuitive side from my mom!"
+    ca:"My wife and I met and live in San Diego.",
+    la:"My mom's side of the family is from Oak Grove, Louisiana. They moved around a lot, but The South is where they made their home.",
+    ma:"My extended family have made their way to Massachusetts and New Hampshire. I love the Boston area!",
+    va:"I was born in Virginia, right outside of Washington D.C. My dad was an FBI Agent and my mom was a Teacher. I get my analytical side from my dad and my intuitive side from my mom!"
 };
 
 //document.addEventListener("DOMContentLoaded", init);
