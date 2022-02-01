@@ -6,9 +6,19 @@ section {
     background-color: #222;
 }
 
+path.ca, path.la, path.va, path.ma {
+    fill: pink;
+}
+
+	path.ca:hover, path.la:hover, path.va:hover, path.ma:hover {
+        fill: red;
+}
+
 header {
     margin: 35px;
 }
+
+#tooltip { position: absolute; background-color: rgba(210, 180, 240, 0.9); font-size: 14px; font-family: sans-serif; font-weight: bold; padding: 5px 10px; border: 2px solid maroon; border-radius: 5px; transform: translate(-50%, -125%); pointer-events: none; }
 
 body {
     background-color: black;
